@@ -1,0 +1,23 @@
+/*
+https://playwright.dev/docs/test-assertions
+2 types of assertions
+1.Hard -auto wait
+2.Soft -auto wait
+
+Non Auto assertions
+JS based assertion
+
+** Playwrite assertion starts with await which bring auto wait in elements across scripts
+** JS based starts with expect and that assertion not support autowaits
+
+Page based assertion
+-toHaveTitle()
+-toHaveURL()
+
+toBeVisible() \Checks if the elements are visible or not
+toBeHidden() | checks if the elements is hidden or not
+tobeEnabled()/Editable 
+
+
+
+*/
